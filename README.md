@@ -1,0 +1,14 @@
+If this dataset is utilized, kindly acknowledge its source by citing the associated article.
+@article{HOSSAIN2024107987,
+title = {AraCovTexFinder: Leveraging the transformer-based language model for Arabic COVID-19 text identification},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {133},
+pages = {107987},
+year = {2024},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2024.107987},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197624001453},
+author = {Md. Rajib Hossain and Mohammed Moshiul Hoque and Nazmul Siddique and M. Ali Akber Dewan},
+keywords = {Natural language processing, Low-resource text identification, Text processing, Language model, Arabic covid text, Ablation study, Late-fusion},
+abstract = {In light of the pandemic, the identification and processing of COVID-19-related text have emerged as critical research areas within the field of Natural Language Processing (NLP). With a growing reliance on online portals and social media for information exchange and interaction, a surge in online textual content, comprising disinformation, misinformation, fake news, and rumors has led to the phenomenon of an infodemic on the World Wide Web. Arabic, spoken by over 420 million people worldwide, stands as a significant low-resource language, lacking efficient tools or applications for the detection of COVID-19-related text. Additionally, the identification of COVID-19 text is an essential prerequisite task for detecting fake and toxic content associated with COVID-19. This gap hampers crucial COVID information retrieval and processing necessary for policymakers and health authorities. Addressing this issue, this paper introduces an intelligent Arabic COVID-19 text identification system named ‘AraCovTexFinder,’ leveraging a fine-tuned fusion-based transformer model. Recognizing the challenges posed by a scarcity of related text corpora, substantial morphological variations in the language, and a deficiency of well-tuned hyperparameters, the proposed system aims to mitigate these hurdles. To support the proposed method, two corpora are developed: an Arabic embedding corpus (AraEC) and an Arabic COVID-19 text identification corpus (AraCoV). The study evaluates the performance of six transformer-based language models (mBERT, XML-RoBERTa, mDeBERTa-V3, mDistilBERT, BERT-Arabic, and AraBERT), 12 deep learning models (combining Word2Vec, GloVe, and FastText embedding with CNN, LSTM, VDCNN, and BiLSTM), and the newly introduced model AraCovTexFinder. Through extensive evaluation, AraCovTexFinder achieves a high accuracy of 98.89 ± 0.001%, outperforming other baseline models, including transformer-based language and deep learning models. This research highlights the importance of specialized tools in low-resource languages to combat the infodemic relating to COVID-19, which can assist policymakers and health authorities in making informed decisions.}
+}
